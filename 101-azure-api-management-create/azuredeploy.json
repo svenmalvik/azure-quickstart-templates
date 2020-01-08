@@ -20,8 +20,10 @@
       "type": "string",
       "allowedValues": [
         "Developer",
+        "Basic",
         "Standard",
-        "Premium"
+        "Premium",
+        "Consumption"
       ],
       "defaultValue": "Developer",
       "metadata": {
@@ -31,6 +33,7 @@
     "skuCount": {
       "type": "string",
       "allowedValues": [
+        "0",
         "1",
         "2"
       ],
@@ -52,7 +55,7 @@
   },
   "resources": [
     {
-      "apiVersion": "2017-03-01",
+      "apiVersion": "2019-01-01",
       "name": "[variables('apiManagementServiceName')]",
       "type": "Microsoft.ApiManagement/service",
       "location": "[parameters('location')]",
