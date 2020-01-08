@@ -1,12 +1,21 @@
 {
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
-    "parameters": {        
+    "parameters": { 
+        "ResourceGroupName": {
+            "value": "test-sma"
+        },    
         "publisherEmail": {
             "value": "email@example.com"
         },
         "publisherName": {
             "value": "GEN-UNIQUE"
+        },
+        "sku": {
+            "value": "Consumption"
+        },
+        "skuCount": {
+            "value": 0
         }
     }
 }
