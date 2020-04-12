@@ -3,16 +3,16 @@
     "contentVersion": "1.0.0.0",
     "parameters": { 
         "ResourceGroupName": {
-            "value": "test-sma"
+            "value": ""
         },    
         "publisherEmail": {
-            "value": "email@example.com"
+            "value": ""
         },
         "publisherName": {
-            "value": "GEN-UNIQUE"
+            "value": ""
         },
         "sku": {
-            "value": "Consumption"
+            "value": ""
         },
         "skuCount": {
             "value": 0
