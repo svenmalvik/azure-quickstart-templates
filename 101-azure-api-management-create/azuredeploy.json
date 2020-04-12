@@ -55,6 +55,12 @@
   "variables": {
     "apiManagementServiceName": "[concat('apiservice', uniqueString(resourceGroup().id))]"
   },
+
+
+
+
+
+  
   "resources": [
     {
       "apiVersion": "2019-01-01",
