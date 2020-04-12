@@ -7,14 +7,16 @@
       "minLength": 1,
       "metadata": {
         "description": "The email address of the owner of the service"
-      }
+      },
+      "defaultValue": "sven@malvik.de"
     },
     "publisherName": {
       "type": "string",
       "minLength": 1,
       "metadata": {
         "description": "The name of the owner of the service"
-      }
+      },
+      "defaultValue": "Sven Malvik"
     },
     "sku": {
       "type": "string",
@@ -25,7 +27,7 @@
         "Premium",
         "Consumption"
       ],
-      "defaultValue": "Developer",
+      "defaultValue": "Consumption",
       "metadata": {
         "description": "The pricing tier of this API Management service"
       }
@@ -37,7 +39,7 @@
         "1",
         "2"
       ],
-      "defaultValue": "1",
+      "defaultValue": "0",
       "metadata": {
         "description": "The instance size of this API Management service."
       }
@@ -64,10 +66,8 @@
         "name": "[parameters('sku')]",
         "capacity": "[parameters('skuCount')]"
       },
-      "properties": {
-        "publisherEmail": "[parameters('publisherEmail')]",
-        "publisherName": "[parameters('publisherName')]"
-      }
+      "publisherEmail": "[parameters('publisherEmail')]",
+      "publisherName": "[parameters('publisherName')]"
     }
   ]
 }
