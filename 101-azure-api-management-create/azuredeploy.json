@@ -65,9 +65,7 @@
       "sku": {
         "name": "[parameters('sku')]",
         "capacity": "[parameters('skuCount')]"
-      },
-      "publisherEmail": "[parameters('publisherEmail')]",
-      "publisherName": "[parameters('publisherName')]"
+      }
     }
   ]
 }
