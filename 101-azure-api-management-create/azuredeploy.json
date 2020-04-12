@@ -66,8 +66,7 @@
       },
       "properties": {
         "publisherEmail": "[parameters('publisherEmail')]",
-        "publisherName": "[parameters('publisherName')]",
-        
+        "publisherName": "[parameters('publisherName')]"
       }
     }
   ]
