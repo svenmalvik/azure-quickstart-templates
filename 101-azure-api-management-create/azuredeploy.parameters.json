@@ -6,10 +6,10 @@
             "value": ""
         },    
         "publisherEmail": {
-            "value": ""
+            "value": "example@email.com"
         },
         "publisherName": {
-            "value": ""
+            "value": "your name"
         },
         "sku": {
             "value": ""

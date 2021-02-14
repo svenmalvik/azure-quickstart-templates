@@ -7,16 +7,14 @@
       "minLength": 1,
       "metadata": {
         "description": "The email address of the owner of the service"
-      },
-      "defaultValue": "sven@malvik.de"
+      }
     },
     "publisherName": {
       "type": "string",
       "minLength": 1,
       "metadata": {
         "description": "The name of the owner of the service"
-      },
-      "defaultValue": "Sven Malvik"
+      }
     },
     "sku": {
       "type": "string",
